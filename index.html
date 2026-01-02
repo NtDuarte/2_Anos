@@ -107,14 +107,16 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        .slide {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            transition: opacity 1s ease;
-            object-position: top center;
-        }
+      /* --- Procure este trecho no seu código e substitua --- */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    object-fit: cover; 
+    object-position: center; 
+}
 
         .slide.active { opacity: 1; }
 
@@ -213,6 +215,7 @@
 </body>
 
 </html>
+
 
 
 
